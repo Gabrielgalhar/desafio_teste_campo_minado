@@ -2,7 +2,7 @@
 
 **Colaborador:** Gabriel Galhardone Felipe.
 
-**Identificação acadêmica:** NOME: Thiago Gimenes Santos. RA:24021292-2. TURMA: ESOFT-6S-B.
+**Identificação acadêmica:** NOME: Gabriel Galhardone Felipe. RA:24021292-2. TURMA: ESOFT-6S-B.
 
 ## Especificação do desafio
 
