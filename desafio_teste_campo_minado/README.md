@@ -59,7 +59,7 @@ Cada teste prepara uma partida independente, executa uma ação pública do moto
 
 ## Evidências da execução
 
-Execução em 10/11/2026, Node.js 22.19.0: **11 testes aprovados, zero falhas, zero ignorados**. Saída completa em [evidencias/testes.log](evidencias/testes.log).
+Execução em 12/11/2026, Node.js 22.19.0: **11 testes aprovados, zero falhas, zero ignorados**. Saída completa em [evidencias/testes.log](evidencias/testes.log).
 
 Cobertura do arquivo de produção: **100.00% de linhas, 100.00% de ramificações e 100.00% de funções**. Os percentuais são do arquivo `src/campo-minado.js`; não foi usada a média que inclui o código dos testes. Cobertura indica código exercitado e não prova ausência de defeitos ou atendimento de variantes não especificadas.
 
