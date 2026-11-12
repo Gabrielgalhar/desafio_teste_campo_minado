@@ -1,0 +1,13 @@
+{
+  "name": "desafio_teste_campo_minado",
+  "version": "1.0.0",
+  "description": "Campo minado 18x14 com 40 bombas e testes automatizados em JavaScript",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

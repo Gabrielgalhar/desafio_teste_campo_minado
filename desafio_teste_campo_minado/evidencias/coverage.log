@@ -1,0 +1,92 @@
+
+> desafio_teste_campo_minado@1.0.0 coverage
+> node --test --experimental-test-coverage
+
+TAP version 13
+# Subtest: CT01 - cria tabuleiro 18x14 com 40 bombas e nenhuma casa aberta
+ok 1 - CT01 - cria tabuleiro 18x14 com 40 bombas e nenhuma casa aberta
+  ---
+  duration_ms: 1.157964
+  type: 'test'
+  ...
+# Subtest: CT02 - revelar bomba encerra a partida com derrota
+ok 2 - CT02 - revelar bomba encerra a partida com derrota
+  ---
+  duration_ms: 0.472229
+  type: 'test'
+  ...
+# Subtest: CT03 - conta bombas adjacentes inclusive na borda
+ok 3 - CT03 - conta bombas adjacentes inclusive na borda
+  ---
+  duration_ms: 1.0475
+  type: 'test'
+  ...
+# Subtest: CT04 - expansão de casa vazia revela a área e alcança vitória
+ok 4 - CT04 - expansão de casa vazia revela a área e alcança vitória
+  ---
+  duration_ms: 3.606097
+  type: 'test'
+  ...
+# Subtest: CT05 - bandeira bloqueia revelação e pode ser removida
+ok 5 - CT05 - bandeira bloqueia revelação e pode ser removida
+  ---
+  duration_ms: 0.364829
+  type: 'test'
+  ...
+# Subtest: CT06 - revelar a mesma casa não duplica a contagem
+ok 6 - CT06 - revelar a mesma casa não duplica a contagem
+  ---
+  duration_ms: 0.26352
+  type: 'test'
+  ...
+# Subtest: CT07 - rejeita coordenadas fora dos limites e fracionárias
+ok 7 - CT07 - rejeita coordenadas fora dos limites e fracionárias
+  ---
+  duration_ms: 0.287095
+  type: 'test'
+  ...
+# Subtest: CT08 - rejeita quantidade, duplicidade e posição inválida de bombas
+ok 8 - CT08 - rejeita quantidade, duplicidade e posição inválida de bombas
+  ---
+  duration_ms: 0.383057
+  type: 'test'
+  ...
+# Subtest: CT09 - permite 40 bandeiras e impede a quadragésima primeira
+ok 9 - CT09 - permite 40 bandeiras e impede a quadragésima primeira
+  ---
+  duration_ms: 0.369938
+  type: 'test'
+  ...
+# Subtest: CT10 - bandeira em casa segura impede vitória até sua remoção
+ok 10 - CT10 - bandeira em casa segura impede vitória até sua remoção
+  ---
+  duration_ms: 3.147339
+  type: 'test'
+  ...
+# Subtest: CT11 - criação padrão sorteia 40 posições únicas e válidas
+ok 11 - CT11 - criação padrão sorteia 40 posições únicas e válidas
+  ---
+  duration_ms: 0.560089
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 93.570407
+# start of coverage report
+# ----------------------------------------------------------------------
+# file                  | line % | branch % | funcs % | uncovered lines
+# ----------------------------------------------------------------------
+# src                   |        |          |         | 
+#  campo-minado.js      | 100.00 |    98.65 |  100.00 | 
+# test                  |        |          |         | 
+#  campo-minado.test.js | 100.00 |   100.00 |  100.00 | 
+# ----------------------------------------------------------------------
+# all files             | 100.00 |    99.14 |  100.00 | 
+# ----------------------------------------------------------------------
+# end of coverage report
